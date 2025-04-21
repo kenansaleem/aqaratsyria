@@ -16,10 +16,10 @@ function App() {
       <Header />
       <Content>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/sell' element={<Sell />} />
-          <Route path='/rent' element={<Rent />} />
-          <Route path='/:category/:propertyId' element={
+          <Route path='/alem-AL-aqarat' element={<Home />} />
+          <Route path='/alem-AL-aqarat/sell' element={<Sell />} />
+          <Route path='/alem-AL-aqarat/rent' element={<Rent />} />
+          <Route path='/alem-AL-aqarat/:category/:propertyId' element={
             <PropertyCardDetails />
           } />
         </Routes>

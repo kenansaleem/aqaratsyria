@@ -1,7 +1,4 @@
-import React, { useEffect, useState } from 'react'
 import { Hero, SpecialProp } from '../../Sections'
-import { LoadingCards } from '../../Components'
-
 const Home = () => {
   // const [loading, setLoading] = useState(true);  
 

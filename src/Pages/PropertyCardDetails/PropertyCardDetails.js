@@ -63,7 +63,7 @@ const PropertyCardDetails = () => {
                         <Card.Text>
                             <strong>الموقع:</strong> <span>دمشق،</span>
                         </Card.Text>
-                        <Button as={Link} to={`/${category}`} variant="primary">الرجوع</Button>
+                        <Button as={Link} to={`/alem-AL-aqarat/${category}`} variant="primary">الرجوع</Button>
                     </Card.Body>
                 </Card>
             </div>
