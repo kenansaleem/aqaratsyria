@@ -1,0 +1,25 @@
+footer {
+    direction: ltr;
+}
+
+footer .footer-links li a:hover {
+    color: var(--main-color) !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+footer h5{
+    position: relative;
+}
+footer h5::after {
+    content: "";
+    right: 50%;
+    transform: translatex(50%);
+    width: 150px;
+    height: 3px;
+    background-color: var(--main-color);
+    position: absolute;
+    margin-top: 35px;
+}
+.Whatsapp:hover{
+    color: #25D366 !important; 
+    transition: color 0.3s ease
+}

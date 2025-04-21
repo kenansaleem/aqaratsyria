@@ -1,0 +1,21 @@
+header .navbar-nav {}
+
+.navbar-brand:hover {
+    color: var(--main-color) !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.navbar-brand{
+    position: relative;
+    height: 60px;
+    width: 50px;
+}
+.logo{
+    right: -21px;
+    top: -21px;
+    position: absolute;
+    max-height: 95px;
+}
+.navbar-nav .nav-link:hover {
+    transition: color .3s ease-in-out;
+    color: var(--main-color) !important;
+}

@@ -1,0 +1,8 @@
+section.Hero{
+    width: 100%;
+    height: calc(100vh - 76px);
+    background: url(../../images/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px;
+}

@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+//react-router-dom
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import { Footer, Header } from './Sections';
+import { Content } from './Sections/index';
+import { Home, Sell, Rent, PropertyCardDetails } from './Pages/index';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Content>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/sell' element={<Sell />} />
+          <Route path='/rent' element={<Rent />} />
+          <Route path='/:category/:propertyId' element={
+            <PropertyCardDetails />
+          } />
+        </Routes>
+      </Content>
+      <Footer />
+    </Router>
   );
 }
 
 export default App;
+

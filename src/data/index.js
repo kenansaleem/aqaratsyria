@@ -1,0 +1,1 @@
+export {default as PropertiesData} from "./PropertiesData/PropertiesData"
