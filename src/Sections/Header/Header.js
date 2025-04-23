@@ -12,7 +12,7 @@ const Header = () => {
     <header>
       <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary ">
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={Link} to="/alem-AL-aqarat">
             <img
               src={logo}
               alt="Logo"
