@@ -12,7 +12,7 @@ const Header = () => {
     <header>
       <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary ">
         <Container>
-          <Navbar.Brand as={Link} to="/alem-AL-aqarat">
+          <Navbar.Brand as={Link} to="/aqaratsyria">
             <img
               src={logo}
               alt="Logo"
@@ -22,9 +22,9 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/alem-AL-aqarat">الرئيسية</Nav.Link>
-              <Nav.Link as={Link} to="/alem-AL-aqarat/sell">شراء</Nav.Link>
-              <Nav.Link as={Link} to="/alem-AL-aqarat/rent">ايجار</Nav.Link>
+              <Nav.Link as={Link} to="/aqaratsyria">الرئيسية</Nav.Link>
+              <Nav.Link as={Link} to="/aqaratsyria/sell">شراء</Nav.Link>
+              <Nav.Link as={Link} to="/aqaratsyria/rent">ايجار</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

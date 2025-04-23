@@ -5,8 +5,8 @@ import { Link, useLocation } from 'react-router-dom';
 
 function PropertyCard({ property }) {
   const location = useLocation();
-  const isRentPath = location.pathname.includes('/alem-AL-aqarat/rent');
-  const detailsPath = isRentPath ? `/alem-AL-aqarat/rent/${property.id}` : `/alem-AL-aqarat/sell/${property.id}`;
+  const isRentPath = location.pathname.includes('/aqaratsyria/rent');
+  const detailsPath = isRentPath ? `/aqaratsyria/rent/${property.id}` : `/aqaratsyria/sell/${property.id}`;
 
   return (
     <Card className='PropertyCard' style={{ width: '18rem' }}>

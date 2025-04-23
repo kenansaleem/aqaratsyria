@@ -10,8 +10,8 @@ const MainText = () => {
           <h1 className="MainText-title">عالم العقارات</h1>  
           <p className="MainText-subtitle">اكتشف أفضل العروض للشراء أو الإيجار</p>  
           <div className="MainText-buttons">  
-            <Button variant="success" as={Link} to="/alem-AL-aqarat/sell">شراء</Button>  
-            <Button variant="info" as={Link} to="/alem-AL-aqarat/rent">ايجار</Button>  
+            <Button variant="success" as={Link} to="/aqaratsyria/sell">شراء</Button>  
+            <Button variant="info" as={Link} to="/aqaratsyria/rent">ايجار</Button>  
           </div>  
         </div>  
       </Container>  
