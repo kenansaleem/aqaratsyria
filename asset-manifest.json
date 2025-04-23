@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/aqaratsyria/static/css/main.244719c9.css",
+    "main.js": "/aqaratsyria/static/js/main.7bccaced.js",
+    "static/js/453.329c6898.chunk.js": "/aqaratsyria/static/js/453.329c6898.chunk.js",
+    "static/media/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg": "/aqaratsyria/static/media/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.a1f0feb3ec1522f8c400.jpg",
+    "static/media/1.png": "/aqaratsyria/static/media/1.2f2b3515a9b939623f3d.png",
+    "static/media/logo-b-w.png": "/aqaratsyria/static/media/logo-b-w.48c9211d0f4f4b4ccbbe.png",
+    "static/media/slick.svg": "/aqaratsyria/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/aqaratsyria/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/aqaratsyria/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/aqaratsyria/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/aqaratsyria/index.html",
+    "main.244719c9.css.map": "/aqaratsyria/static/css/main.244719c9.css.map",
+    "main.7bccaced.js.map": "/aqaratsyria/static/js/main.7bccaced.js.map",
+    "453.329c6898.chunk.js.map": "/aqaratsyria/static/js/453.329c6898.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.244719c9.css",
+    "static/js/main.7bccaced.js"
+  ]
+}
